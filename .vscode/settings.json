@@ -1,0 +1,26 @@
+{
+  // disable github copilot
+  "github.copilot.enable": {
+    "*": false
+  },
+
+  // disable github copilot next edit suggestions
+  "github.copilot.nextEditSuggestions.enabled": false,
+
+  // disable quick suggestions
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+
+  // disable inline suggestions
+  "editor.inlineSuggest.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabCompletion": "off",
+  // to make visual difference
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#ffffff"
+  }
+}
